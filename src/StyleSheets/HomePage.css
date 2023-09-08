@@ -1,0 +1,96 @@
+body, html {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+    overflow-y: hidden; 
+}
+
+.Home {
+    background-color: #ECF6FD;
+    display: flex; 
+    gap: 150px; 
+  }
+
+.search {
+    background-color: #1D9BF0;
+    width: 250px;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 0;
+  }
+  
+.element {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    width: 200px;
+    margin-top: 60px;
+    overflow-y: scroll; 
+    width: auto;
+    height: 700px; 
+ }
+
+.searchbutton{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    justify-content: center;
+    padding: 10px 20px;
+    font-family: sans-serif; 
+    font-size: 18px; 
+    font-weight: 20px; 
+    background-color: white;
+    cursor: pointer; 
+}
+.searchbutton:hover{
+    background-color: #de850f
+  }
+  
+input{
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: sans-serif; 
+    font-size: 18px; 
+    font-weight: 20px; 
+    color: #000; 
+    background:#ECF6FD;
+    text-align: center;
+} 
+ .element-div{
+    height: 100px;
+    border: 3px solid #000;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 900px;
+    display: flex; 
+    gap: 1px; 
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+} 
+.element img{
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+  }
+
+.Tittle{
+    text-align: center;
+    margin-left: 380px;
+    color: #1D9BF0;
+}
+p{
+    margin: 0 auto
+} 
